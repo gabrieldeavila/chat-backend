@@ -7,7 +7,7 @@ const express = require("express");
 
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://chat-brown.vercel.app/",
     methods: ["GET", "POST"],
     credentials: true,
   },
